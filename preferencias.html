@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/proyecto final/assets/img/favicon2.png" type="image/x-icon">
+    <title>Flora y Ramoncito</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 0.1px;
+            font-size: 1.0rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 2px solid rgb(190, 190, 190);
+            padding: 2px 0.5%;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 2px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Flora y Ramoncito</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">BIO</a></li>
+                <li><a class="active" href="preferencias.html">Gustos</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h2 style="margin: 15px">Gustos de Flora:</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(207, 207, 207);">
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th>Le gusta: </th>
+            <th>No le gusta: </th>
+            <tr>
+                <td>Pienso</td>
+                <td>True Origins</td>
+                <td>Whiskas</td>
+            </tr>
+            <tr>
+                <td>Latas</td>
+                <td>Salmón</td>
+                <td>Gambas</td>
+            </tr>
+            <tr>
+                <td>Piedritas</td>
+                <td>Nova Clean</td>
+                <td>Genéricas</td>
+            </tr>
+            <tr>
+                <td>Juguetes</td>
+                <td>Rascador</td>
+                <td>Collares</td>
+            </tr>
+            <tr>
+                <td>Actividades</td>
+                <td>Cazar moscas</td>
+                <td>Dejar barrer</td>
+            </tr>
+            <tr>
+                <td>Musica</td>
+                <td>Relajante</td>
+                <td>Reggeaton</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+    <h2 style="margin: 15px">Gustos de Ramoncito:</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(207, 207, 207);">
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th>Le gusta: </th>
+            <th>No le gusta: </th>
+
+            <tr>
+                <td>Pienso</td>
+                <td>Acama</td>
+                <td>Desconocido</td>
+            </tr>
+            <tr>
+                <td>Latas</td>
+                <td>Atún</td>
+                <td>Pollo</td>
+            </tr>
+            <tr>
+                <td>Piedritas</td>
+                <td>Nova Clean</td>
+                <td>Genéricas</td>
+            </tr>
+            <tr>
+                <td>Juguetes</td>
+                <td>Rata cascabel</td>
+                <td>Collares</td>
+            </tr>
+            <tr>
+                <td>Actividades</td>
+                <td>Ensuciarse</td>
+                <td>Bañarse</td>
+            </tr>
+            <tr>
+                <td>Musica</td>
+                <td>Relajante</td>
+                <td>Trap</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+
+
+</body>
+</html>
